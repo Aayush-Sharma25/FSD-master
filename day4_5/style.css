@@ -1,0 +1,103 @@
+/* The Tag Selector */
+body {
+    background-color: bisque;
+}
+
+img {    
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    color: blue;
+}
+
+/* dimension: px, %, em */
+/* color: name, #000000, rgb(r,g,b) */
+
+
+/* Class Selector */
+.first_para {
+    color:red;
+}
+.red_apple {
+    background-color: green;
+}
+.green_apple {
+    background-color: red;
+}
+.circular{
+    border-radius: 100%;
+}
+
+/* ID Selector */
+#special {
+    background-color: rgb(100, 30, 120);
+    color: goldenrod;
+    font-weight: bold;    
+}
+
+/* Grouping the Selectors */
+.ekGroup, h1 {
+    background-color: rgb(38, 229, 181);
+    color: rgb(218, 32, 113);
+    font-weight: bold;
+}
+
+/* Pseudo Selector */
+.apple{
+    color: brown;
+}
+
+.apple:hover{
+    background-color: gold;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+/* Playing with Div and Display */
+.square100 {
+    height: 100px;
+    width: 100px;
+}
+
+.firstBox {
+    background-color: red;
+    /* display: inline; */
+    position: relative;
+}
+
+.secondBox {
+    background-color: green; 
+    /* display: inline; */
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+    /* margin-inline-start: 100px; */
+    /* display: none;   */
+    /* visibility: hidden; */
+}
+
+.thirdBox {
+    background-color: blue; 
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    /* display: inline; */
+    /* margin-inline-start: 200px; 
+    margin-block-start: -200px;    */
+}
+
+.red_apple{
+    /* margin-top: 40px; */
+    position: sticky;
+    top: 500px;
+    left:5px;
+}
+
+.green_apple{
+    position: fixed;
+    bottom: 40px;
+    right:40px;
+}

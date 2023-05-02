@@ -1,0 +1,43 @@
+# git clone "the_other_repo"
+
+###################################
+
+# initialize git repository
+git init
+
+# check the status of file
+git status
+
+# configuration of email and username
+git config user.name "yourusername"
+git config user.email "youremail@email.com"
+
+# Staging the files
+git add filename, filename2
+# or
+git add .
+
+# One-time step (adding remote to your git)
+git remote add origin "http://url_of_your_git_repo.git"
+
+# Commit the changes (important)
+git commit -m "any message stating for what this commit is"
+
+# Choose branch
+git checkout master
+#or
+git checkout -b nayi_branch
+
+# Push the changes to your branch
+git push origin nayi_branch
+
+#######
+# pull the content from other branch
+git pull origin master
+
+# merge the changes in current branch
+git merge
+
+#######
+# fetch all the tree structure from remote
+git fetch
