@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: white;
+}
+.container{
+    height: 1500px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30PX;
+    row-gap: 30PX;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    
+}
+.red{
+    background-color: red;
+    width: 500px;
+}
+
+.blue{
+    background-color: blue;
+    height: 20PX;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.white{
+    background-color: white;
+}
+.green{
+    background-color: green;
+}
