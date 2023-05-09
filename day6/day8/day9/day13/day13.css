@@ -1,0 +1,46 @@
+.div{
+    min-width: 100px;
+    min-height: 100px;
+}
+.container{
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 4fr ;
+    display:grid; 
+}
+
+.red{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.blue{
+    background-color: blue;
+    
+}
+
+.yellow{
+    background-color: yellow;
+    
+}
+
+.pink{
+    background-color: pink;
+    
+}
+
+.brown{
+    background-color: brown;
+    
+}
+
+.orange{
+    background-color: orange;
+    
+}
+.green{
+    background-color: green;
+    
+}

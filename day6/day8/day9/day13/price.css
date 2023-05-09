@@ -1,0 +1,17 @@
+.container{
+    background-color: aqua; 
+    display: table-row;
+    display: flex;
+}
+.head{ 
+    color: blue;
+}
+
+.feature{
+    display: flex;
+    font-size: 10px;
+}
+body{
+    font-family: monospace;
+}
+

@@ -1,3 +1,4 @@
+
 body{
     background-color: aliceblue;
     text-align: center;
@@ -22,29 +23,39 @@ body{
 }
 .red{
     background-color: red;
-    width: 500px;
+    width: 300px;
+    order: 7;
 }
 
 .blue{
     background-color: blue;
-    height: 20PX;
+    order: 2;
+    height: 200PX;
+    flex-grow: 3;
 }
 
 .yellow{
     background-color: yellow;
+    order: 3;
+    flex-grow: 2;
 }
 
 .pink{
     background-color: pink;
+    order: 1;
+    flex-grow: 4;
 }
 
 .brown{
     background-color: brown;
+    order: 4;
 }
 
-.white{
-    background-color: white;
+.orange{
+    background-color: orange;
+    order: 5;
 }
 .green{
     background-color: green;
+    order: 6;
 }
