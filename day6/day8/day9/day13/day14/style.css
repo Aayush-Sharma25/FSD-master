@@ -1,0 +1,8 @@
+.feature-image{
+    padding: 5px;
+}
+.slider-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
